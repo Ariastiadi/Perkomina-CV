@@ -1,0 +1,45 @@
+# Rahasia & konfigurasi lokal
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Cache & paket lokal
+.cache/
+.local/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.next/
+.vite/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Database lokal
+*.sqlite
+*.sqlite3
+*.db
+
+# Sistem operasi & editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
+# Log
+*.log
+logs/
